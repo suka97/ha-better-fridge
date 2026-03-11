@@ -10,7 +10,7 @@ from homeassistant.components.climate import (
 )
 from homeassistant.const import Platform
 
-DOMAIN = "generic_thermostat"
+DOMAIN = "better_fridge"
 
 PLATFORMS = [Platform.CLIMATE]
 

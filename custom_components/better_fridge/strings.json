@@ -35,7 +35,7 @@
           "target_sensor": "Temperature sensor that reflects the current temperature."
         },
         "description": "Create a climate entity that controls the temperature via a switch and sensor.",
-        "title": "Create generic thermostat"
+        "title": "Create Better Fridge"
       }
     }
   },
@@ -78,9 +78,9 @@
   },
   "services": {
     "reload": {
-      "description": "Reloads generic thermostats from the YAML-configuration.",
+      "description": "Reloads Better Fridge entities from the YAML configuration.",
       "name": "[%key:common::action::reload%]"
     }
   },
-  "title": "Generic thermostat"
+  "title": "Better Fridge"
 }
